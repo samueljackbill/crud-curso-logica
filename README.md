@@ -47,9 +47,20 @@ cd api
 ```
 
 
+Instalar o Node.js no computador
+
+
 Criar projeto node
 ```
 npm init -y
+```
+Em casos de erro abrir o Windows Power Shell como Administrador e executar o seguinte comando:
+```
+Set-ExecutionPolicy Unrestricted
+```
+Verificar com o comando:
+```
+Get-ExecutionPolicy
 ```
 
 
