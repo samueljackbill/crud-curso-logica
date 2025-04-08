@@ -71,7 +71,11 @@ yarn add express nodemon mysql cors
 * Express -> Construção da API
 * Nodemon -> Compilar o Node em tempo real, não precisando parar o projeto e startar novamente a cada modificação no código
 * MySQL -> Banco de Dados
-* Cors -> Evitar conflitos devido ao projeto estar rodando localmente 
+* Cors -> Evitar conflitos devido ao projeto estar rodando localmente
+Em caso de erro adicionar instalar yarn com o comando:
+```
+npm install -g yarn
+```
 
 
 Alterar arquivo "package.json"
@@ -112,3 +116,24 @@ Visualizar os dados no navegador
 ```
 http://localhost:8800
 ```
+
+
+Criar arquivo "db.js" dentro da pasta "api"
+Preencher arquivo "db.js"
+
+
+Criar pasta "routes" dentro da pasta "api"
+Criar arquivo "alunos.js" dentro da pasta "api"
+Preencher arquivo "db.js"
+
+
+Criar pasta "controllers" dentro da pasta "api"
+Criar arquivo "aluno.js" dentro da pasta "controllers"
+Preencher arquivo "aluno.js"
+
+
+Rodar novamente o projeto com o comando:
+```
+yarn start
+```
+Deve estar trazendo todos os registros da tabela "alunos" do banco de dados
