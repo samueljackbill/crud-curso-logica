@@ -90,17 +90,7 @@ Colocar a seguinte informação sobrescrevendo o texto existente no bloco "scrip
 
 
 Criar arquivo "index.js"
-
-
-Criar arquivo "db.js"
-
-
-Criar pasta "routes"
-Entrar dentro da pasta "routes" e criar arquivo "alunos.js"
-
-
-Criar pasta "controllers"
-Entrar dentro da pasta "controllers" e criar arquivo "aluno.js"
+Preencher arquivo "index.js"
 
 
 ### Rodar o projeto
