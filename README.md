@@ -183,3 +183,13 @@ Limpar arquivo "App.js" e depois implementar arquivo "App.js" dentro da pastar "
 Criar dentro de "src" a pasta "components"
 * Criar o arquivo "Form.js" dentro da pasta "components"
 * Implementar arquivo "Form.js"
+
+
+Testar projeto rodando o node no terminal "backend-node" (Comando dentro da pasta api)
+```
+yarn start
+```
+Testar projeto rodando o react no terminal "frontend-react" (Comando dentro da pasta frontend)
+```
+yarn start
+```
