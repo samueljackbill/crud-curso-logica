@@ -185,11 +185,11 @@ Criar dentro de "src" a pasta "components"
 * Implementar arquivo "Form.js"
 
 
-Testar projeto rodando o node no terminal "backend-node" (Comando dentro da pasta api)
+Testar o projeto rodando o node no terminal "backend-node" (Comando dentro da pasta api)
 ```
 yarn start
 ```
-Testar projeto rodando o react no terminal "frontend-react" (Comando dentro da pasta frontend)
+Testar o projeto rodando o react no terminal "frontend-react" (Comando dentro da pasta frontend)
 ```
 yarn start
 ```
