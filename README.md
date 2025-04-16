@@ -13,25 +13,25 @@ CREATE DATABASE crud;
 ```
 
 
-Criar tabela "alunos"
+Criar tabela "usuarios"
 ```
-CREATE TABLE `crud`.`alunos` (`id` INT NOT NULL AUTO_INCREMENT , `nome` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NOT NULL , `telefone` VARCHAR(45) NOT NULL , `data_nascimento` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+CREATE TABLE `crud`.`usuarios` (`id` INT NOT NULL AUTO_INCREMENT , `nome` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NOT NULL , `telefone` VARCHAR(45) NOT NULL , `data_nascimento` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
 ```
 
 
-Inserir registros na tabela "alunos"
+Inserir registros na tabela "usuarios"
 ```
-INSERT INTO `alunos` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Samuel Pires', 'samueljackbill@gmail.com', '(63)99214-0309', '1995-05-23');
-INSERT INTO `alunos` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
-INSERT INTO `alunos` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
-INSERT INTO `alunos` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
-INSERT INTO `alunos` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
-INSERT INTO `alunos` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
-INSERT INTO `alunos` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
-INSERT INTO `alunos` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
-INSERT INTO `alunos` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
-INSERT INTO `alunos` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
-INSERT INTO `alunos` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
+INSERT INTO `usuarios` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Samuel Pires', 'samueljackbill@gmail.com', '(63)99214-0309', '1995-05-23');
+INSERT INTO `usuarios` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
+INSERT INTO `usuarios` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
+INSERT INTO `usuarios` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
+INSERT INTO `usuarios` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
+INSERT INTO `usuarios` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
+INSERT INTO `usuarios` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
+INSERT INTO `usuarios` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
+INSERT INTO `usuarios` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
+INSERT INTO `usuarios` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
+INSERT INTO `usuarios` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
 ```
 
 
