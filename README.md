@@ -15,7 +15,7 @@ CREATE DATABASE crud;
 
 Criar tabela "alunos"
 ```
-CREATE TABLE `crud`.`alunos` (`id` INT NOT NULL AUTO_INCREMENT , `nome` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NOT NULL , `telefone` VARCHAR(45) NOT NULL , `data_nascimento` DATE NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+CREATE TABLE `crud`.`alunos` (`id` INT NOT NULL AUTO_INCREMENT , `nome` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NOT NULL , `telefone` VARCHAR(45) NOT NULL , `data_nascimento` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
 ```
 
 
@@ -129,6 +129,7 @@ yarn start
 Deve estar trazendo todos os registros da tabela "alunos" do banco de dados
 
 
+### Implementando o Frontend
 Iniciar o frontend acessando a raiz do projeto ou voltando uma pasta através do terminal
 ```
 cd ..
@@ -192,4 +193,50 @@ yarn start
 Testar o projeto rodando o react no terminal "frontend-react" (Comando dentro da pasta frontend)
 ```
 yarn start
+```
+
+
+Implementar o Grid para mostrar os registros do banco de dados
+* No arquivo "App.js" que fica dentro do path "frontend/src" importar a bilioteca
+* Depois inserir a tag dentro do formulário
+* Criar e implementar arquivo "Grid.js" dentro da pasta "components"
+
+
+Implementar arquivo "App.js" para receber os registros do banco de dados
+* Importar o useState
+* Implementar as variáveis
+* Importar o axios
+* Implementar a função
+* Importar o useEffect
+* Implementar a função
+
+
+Implementar o método POST, usado para cadastrar novos registros no banco de dados
+* Implementar o método "addUser" dentro do arquivo "aluno.js" que fica no path "api/controllers"
+
+
+Alterar arquivo de rotas inserindo as ações de criar, editar e excluir registros
+* O arquivo "aluno.js" fica dentro do path "api/routes"
+
+
+Implementar as ações de edição e exclusão no Grid
+* O arquivo "Grid.js" fica no path "frontend/src/components"
+
+
+Importar no formulário o useEffect
+* Necessário identificar se a ação do usuário é de cadastro ou de edição
+
+
+### Testar Projeto Finalizado
+
+
+Executar o backend e o frontend
+```
+yarn start
+```
+```
+http://localhost:3000 
+```
+```
+http://localhost:8800
 ```
