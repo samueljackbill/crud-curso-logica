@@ -19,6 +19,19 @@ const Container = styled.div`
 
 const Title = styled.h2``;
 
+const Hr = styled.hr``;
+
+const P = styled.p`
+  font-size: 10px;
+  color: gray;
+  text-align: center;
+`;
+
+const A = styled.a`
+  text-decoration: none;
+  color: gray;
+`;
+
 function App() {
   const [users, setUsers] = useState([]);
   const [onEdit, setOnEdit] = useState(null);
@@ -45,6 +58,8 @@ function App() {
       </Container>
       <ToastContainer autoClose={3000} />
       <GlobalStyle />
+      <Hr />
+      <P>© Brasil Digital - Projeto Final Desenvolvido por <A href="https://github.com/samueljackbill" target="_blank">Samuel Pires</A> orientado pelo Professor <A href="https://github.com/samueljackbill" target="_blank">Samuel Pires</A></P>
     </>
   );
 }

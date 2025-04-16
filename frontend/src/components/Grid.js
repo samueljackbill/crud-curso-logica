@@ -15,6 +15,8 @@ const Table = styled.table`
   word-break: break-all;
 `;
 
+export const Hr = styled.hr``;
+
 export const Thead = styled.thead``;
 
 export const Tbody = styled.tbody``;

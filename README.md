@@ -15,23 +15,23 @@ CREATE DATABASE crud;
 
 Criar tabela "usuarios"
 ```
-CREATE TABLE `crud`.`usuarios` (`id` INT NOT NULL AUTO_INCREMENT , `nome` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NOT NULL , `telefone` VARCHAR(45) NOT NULL , `data_nascimento` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+CREATE TABLE `crud`.`usuarios` (`id` INT NOT NULL AUTO_INCREMENT , `nome` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NOT NULL , `fone` VARCHAR(45) NOT NULL , `data_nascimento` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
 ```
 
 
 Inserir registros na tabela "usuarios"
 ```
-INSERT INTO `usuarios` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Samuel Pires', 'samueljackbill@gmail.com', '(63)99214-0309', '1995-05-23');
-INSERT INTO `usuarios` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
-INSERT INTO `usuarios` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
-INSERT INTO `usuarios` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
-INSERT INTO `usuarios` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
-INSERT INTO `usuarios` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
-INSERT INTO `usuarios` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
-INSERT INTO `usuarios` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
-INSERT INTO `usuarios` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
-INSERT INTO `usuarios` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
-INSERT INTO `usuarios` (`nome`, `email`, `telefone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
+INSERT INTO `usuarios` (`nome`, `email`, `fone`, `data_nascimento`) VALUES ('Samuel Pires', 'samueljackbill@gmail.com', '(63)99214-0309', '1995-05-23');
+INSERT INTO `usuarios` (`nome`, `email`, `fone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
+INSERT INTO `usuarios` (`nome`, `email`, `fone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
+INSERT INTO `usuarios` (`nome`, `email`, `fone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
+INSERT INTO `usuarios` (`nome`, `email`, `fone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
+INSERT INTO `usuarios` (`nome`, `email`, `fone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
+INSERT INTO `usuarios` (`nome`, `email`, `fone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
+INSERT INTO `usuarios` (`nome`, `email`, `fone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
+INSERT INTO `usuarios` (`nome`, `email`, `fone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
+INSERT INTO `usuarios` (`nome`, `email`, `fone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
+INSERT INTO `usuarios` (`nome`, `email`, `fone`, `data_nascimento`) VALUES ('Teste', 'teste@teste.com', '(00)00000-0000', '0000-00-00');
 ```
 
 
@@ -235,8 +235,8 @@ Executar o backend e o frontend
 yarn start
 ```
 ```
-http://localhost:3000 
+Frontend - React: http://localhost:3000 
 ```
 ```
-http://localhost:8800
+Backend - Node: http://localhost:8800
 ```
